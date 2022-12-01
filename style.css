@@ -1,0 +1,93 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align:center;
+}
+
+#navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: red;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+#proj1, #proj2 {
+    border: 2px solid black;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#fuck { 
+    text-align: center;
+}
+
+#proj1 img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+
+#proj2 iframe {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+}
+
+#resume iframe {
+    height: 800px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page {
+    display: none;
+}
